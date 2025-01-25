@@ -1,4 +1,5 @@
 import Task from "./components/Task";
+import LevelBar from "./components/LevelBar";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           tag="toodly"
         />
       </div>
+      <LevelBar xp={20} />
     </>
   );
 }
