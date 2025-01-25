@@ -3,6 +3,11 @@
 
 @theme {
   --color-pastel-blue: #9bb8ed;
+  --color-pastel-orange: #feecd6;
+  --color-pastel-violet: #a39fe1;
+  --color-pastel-purple: #deb3e0;
+  --color-pastel-pink: #fec6df;
+  --color-pastel-peach: #feecd6;
 }
 
 :root {
@@ -16,4 +21,12 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #feecd6;
+}
+
+.iconContainer svg {
+  font-size: inherit;
 }
