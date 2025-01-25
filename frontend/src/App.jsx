@@ -13,7 +13,7 @@ function App() {
           tag="toodly"
         />
       </div>
-      <LevelBar xp={20} />
+      <LevelBar xp={30} />
     </>
   );
 }
